@@ -25,6 +25,6 @@ sudo service jenkins start
 
 sleep 1m
 
-echo "Installing Jenkins Plugins"
+echo "Password"
 JENKINSPWD=$(sudo cat /var/lib/jenkins/secrets/initialAdminPassword)
 echo $JENKINSPWD
